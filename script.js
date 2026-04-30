@@ -1,4 +1,4 @@
-const apiKey = '04177e3c64ac4a2a81260029260804';
+const apiKey = '2568fa20d19243fda1c174135262704';
 let clockInterval;
 let currentLang = 'ko'; 
 let lastWeatherData = null; 
