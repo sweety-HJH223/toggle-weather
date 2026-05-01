@@ -474,7 +474,7 @@ async function getVibe(searchInput, originalQuery = null) {
       }
     }
 
-    const res  = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(queryForApi)}&days=6&aqi=yes&alerts=no&lang=ko`);
+    const res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(queryForApi)}&days=6&aqi=yes&alerts=no&lang=en`);
     const data = await res.json();
 
     if (data.error) {
